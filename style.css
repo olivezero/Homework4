@@ -1,0 +1,40 @@
+footer{
+    text-align: center; 
+}
+
+footer .nav a{
+    font-size: 14px;
+    border: 1px solid #cfd2d7;
+    color: #555;
+
+    text-decoration-line: none;
+
+    position: relative;
+    display: inline-block;
+    padding: 3px 10px 2px;
+    margin: 5px 0px;
+}
+
+footer .link a{
+    font-size: 14px;
+    color: #777;
+
+    border: solid blue; 
+}
+
+footer .link :after{
+    content: "|";
+    position: absolute;
+
+    background-color: #cfd2d7;
+}
+
+footer .link :last-child:after{
+    content: "";
+}
+
+footer .text{
+    font-size: 13px;
+    font-weight: 300;
+    color: #8f8f8f;
+}
